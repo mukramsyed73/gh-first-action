@@ -1,10 +1,10 @@
 name: Faction Workflow
 on: workflow_dispatch
 jobs:
-  first_job:
-  runs-on: ubuntu-latest
-  steps:
-   - name : Print greeting
-     run : echo "Hello There!"
-   - name : Print Goodbye
-     run: echo "$$$$$$$$$$$$$$$$$$$$Gooooooooooooood Bye$$$$$$$$$$$"
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+     - name : Print greeting
+       run : echo "Hello There!"
+     - name : Print Goodbye
+       run: echo "$$$$$$$$$$$$$$$$$$$$Gooooooooooooood Bye$$$$$$$$$$$"
